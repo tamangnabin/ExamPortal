@@ -12,45 +12,46 @@
                     <!--username field-->
                     <mat-form-field class="full-width" appearance="outline">
                         <mat-label>Username</mat-label>
-                        <input 
-                    
-                        matInput placeholder="Enter here"
-                        >
+                        <input required [(ngModel)]="user.username" name="username" matInput placeholder="Enter here">
+
                     </mat-form-field>
-    
+
                     <!--password field-->
                     <mat-form-field class="full-width" appearance="outline">
                         <mat-label>Password</mat-label>
-                        <input type="password" matInput placeholder="Enter here">
+                        <input required [(ngModel)]="user.password" name="password" type="password" matInput
+                            placeholder="Enter here">
                     </mat-form-field>
 
                     <!--first name field-->
                     <mat-form-field class="full-width" appearance="outline">
                         <mat-label>First Name</mat-label>
-                        <input matInput placeholder="Enter here">
+                        <input required [(ngModel)]="user.firstName" name="firstName" matInput placeholder="Enter here">
                     </mat-form-field>
-              
+
                     <!--last name field-->
                     <mat-form-field class="full-width" appearance="outline">
                         <mat-label>Last Name</mat-label>
-                        <input matInput placeholder="Enter here">
+                        <input required [(ngModel)]="user.lastName" name="lastName" matInput placeholder="Enter here">
                     </mat-form-field>
-              
+
                     <!--email name field-->
                     <mat-form-field class="full-width" appearance="outline">
                         <mat-label>Email</mat-label>
-                        <input type="email" matInput placeholder="Enter here">
+                        <input required [(ngModel)]="user.email" name="email" type="email" matInput
+                            placeholder="Enter here">
                     </mat-form-field>
-                
+
                     <!--phone number field-->
                     <mat-form-field class="full-width" appearance="outline">
                         <mat-label>Phone Number</mat-label>
-                        <input type="number" matInput placeholder="Enter here">
+                        <input required [(ngModel)]="user.phoneNumber" name="phoneNumber" type="number" matInput
+                            placeholder="Enter here">
                     </mat-form-field>
 
                     <div class="container text-center">
                         <button type="submit" mat-raised-button color="primary">Register</button>
-                        <button style="margin-left: 20px;" mat-raised-button color="accent">Register</button>
+                        <button style="margin-left: 20px;" mat-raised-button color="accent">Clear</button>
                     </div>
                 </form>
 

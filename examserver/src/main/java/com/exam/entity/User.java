@@ -26,7 +26,7 @@ public class User {
 	private String firstName;
 	private String lastName;
 	private String email;
-	private String phone;
+	private String phoneNumber;
 	private boolean enabled = true;
 	private String profile;
 
@@ -39,14 +39,14 @@ public class User {
 	}
 
 	public User(Long userId, String username, String password, String firstName, String lastName, String email,
-			String phone, boolean enabled, String profile) {
+			String phoneNumber, boolean enabled, String profile) {
 		this.userId = userId;
 		this.username = username;
 		this.password = password;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.email = email;
-		this.phone = phone;
+		this.phoneNumber = phoneNumber;
 		this.enabled = enabled;
 		this.profile = profile;
 	}
@@ -107,12 +107,12 @@ public class User {
 		this.email = email;
 	}
 
-	public String getPhone() {
-		return phone;
+	public String getPhoneNumber() {
+		return phoneNumber;
 	}
 
-	public void setPhone(String phone) {
-		this.phone = phone;
+	public void setPhoneNumber(String phoneNumber) {
+		this.phoneNumber = phoneNumber;
 	}
 
 	public boolean isEnabled() {

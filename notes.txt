@@ -1,0 +1,16 @@
+Code Repo URL : https://github.com/Kcmohan1997/ExamPortal
+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
+
+FrontEnd : Angular 
+BackEnd : SpringBoot
+
+Required Software and Tools
+
+* IdE - Intellij/Eclipse
+* Database - MySQL
+
+mySQl
+	- port number : 3306
+	- X Protocol Port : 33060
+	- Username : kamal
+	- Password : Toyot@9841
