@@ -20,7 +20,7 @@
   - For Windows OS visit: https://www.java.com/en/download/help/windows_manual_download.html
   - For Ubuntu OS : Run the following command to install Java 'Open JDK 8'
  
-  ```console
-  sudo apt-get install openjdk-8-jdk
-  ```
+    ```console
+     sudo apt-get install openjdk-8-jdk
+    ```
   
