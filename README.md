@@ -42,40 +42,41 @@
     ```console
     sudo apt install mysql-server
     ```
-    - Check if MySQL was successfully installed by running:
+    - MySQL workbench Installation
+      ```console
+      sudo apt install mysql-workbench-community
+      ```
+  - Check if MySQL was successfully installed by running:
     ```console
     mysql --version
-    ```
-    - MySQL workbench Installation
-    ```console
-    sudo apt install mysql-workbench-community
     ```
     
 #### Node.js Installation
   - For Windows OS Visit : https://nodejs.org/en/download/
   - For Ubuntu OS: Run the following command
-  ```console
-  sudo apt-get install nodejs
-  ```
+    ```console
+    sudo apt-get install nodejs
+    ```
   - Verify the version installed
-  ```console
-  node --version
-  ```
+    ```console
+    node --version
+    ```
   
 #### Angular CLI Installation
   - Run the following command
-  ```console
-  npm install -g @angular/cli
-  ```
+    ```console
+    npm install -g @angular/cli
+    ```
     - Verify the version installed
-  ```console
-  ng version
-  ```
+    ```console
+    ng version
+    ```
   
 #### IDE Installation
   - Eclipse [Link](https://www.eclipse.org/downloads/packages/release/kepler/sr2/eclipse-ide-java-ee-developers)
   - Intellij [Link](https://www.jetbrains.com/idea/download)
 
+## Possible Error and solutions
 #### If you get error shown below when running front end server
 ```console
 Could not find module "@angular-devkit/build-angular"
