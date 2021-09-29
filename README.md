@@ -77,7 +77,7 @@
   - Intellij [Link](https://www.jetbrains.com/idea/download)
 
 ## Possible Error and solutions
-*If you get error shown below when running front end server
+* If you get error shown below when running front end server
   ```console
   Could not find module "@angular-devkit/build-angular"
   ```
