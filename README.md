@@ -1,6 +1,6 @@
 # ExamPortalPrj
 
-#### This a exam portal project. Front end is build using Angular 12.2.7 and Back-end using Spring-Boot.
+#### This a exam portal project. Front end is build using Angular 12.2.7 and Back-end using Spring-Boot. The project was initiated with the help of the tutorial by Durgesh [Tutorial link](https://www.youtube.com/playlist?list=PL0zysOflRCel5kT-AiGyy5oMabnlilkIS) 
 
 ## Prerequisites to run the project
 
