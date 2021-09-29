@@ -77,16 +77,16 @@
   - Intellij [Link](https://www.jetbrains.com/idea/download)
 
 ## Possible Error and solutions
-#### If you get error shown below when running front end server
-```console
-Could not find module "@angular-devkit/build-angular"
-```
-  To fix the issue run the following command
-   ```console
-  npm update
-  ```
-  OR
+*If you get error shown below when running front end server
   ```console
-  npm install --save-dev @angular-devkit/build-angular
+  Could not find module "@angular-devkit/build-angular"
   ```
+    To fix the issue run the following command
+     ```console
+    npm update
+    ```
+    OR
+    ```console
+    npm install --save-dev @angular-devkit/build-angular
+    ```
  
