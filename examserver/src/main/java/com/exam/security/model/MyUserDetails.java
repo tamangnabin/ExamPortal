@@ -27,7 +27,6 @@ public class MyUserDetails implements UserDetails {
     public MyUserDetails() {
     }
 
-
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return authorities;
