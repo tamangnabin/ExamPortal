@@ -1,5 +1,6 @@
 package com.exam.controller;
 
+import com.exam.entity.User;
 import com.exam.security.model.AuthenticationRequest;
 import com.exam.security.model.AuthenticationResponse;
 import com.exam.security.service.MyUserDetailsService;
@@ -12,11 +13,12 @@ import org.springframework.security.authentication.DisabledException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.security.Principal;
 
 @RestController
+@CrossOrigin("*")
 public class AuthenticationController {
 
     @Autowired
@@ -57,5 +59,12 @@ public class AuthenticationController {
             e.printStackTrace();
             throw new Exception("Exception Occurred");
         }
+    }
+
+    // returns the details of current logged in user
+    @GetMapping("/current-users")
+    public UserDetails getCurrentUser(Principal principal) {
+
+        return this.myUserDetailsService.loadUserByUsername(principal.getName());
     }
 }
