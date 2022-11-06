@@ -20,6 +20,7 @@ public class ExamserverApplication {
 	private UserService userService;
 
 	public static void main(String[] args){
+		System.out.println("This is my first Test");
 		SpringApplication.run(ExamserverApplication.class, args);
 	}
 
