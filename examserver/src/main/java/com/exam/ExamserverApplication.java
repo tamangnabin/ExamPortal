@@ -20,6 +20,7 @@ public class ExamserverApplication {
 	private UserService userService;
 
 	//This is a Test
+	//This is a Application main class
 
 	public static void main(String[] args){
 		SpringApplication.run(ExamserverApplication.class, args);
