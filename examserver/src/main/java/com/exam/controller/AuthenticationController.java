@@ -29,6 +29,7 @@ public class AuthenticationController {
 
     @Autowired
     private JwtUtil jwtUtil;
+    //This is a authentication class
 
     @PostMapping("/auth")
     public ResponseEntity<?> generateToken(@RequestBody AuthenticationRequest authenticationRequest) throws Exception {
